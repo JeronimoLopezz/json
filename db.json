@@ -1,17 +1,7 @@
 {
-  id: 101,
-  title: 'foo',
-  body: 'bar',
-  userId: 1
-},
-{
-  "posts": [
-    {
-      "id": 1,
-      "title": "hellooooooooo"
-    }
-  ],
-  "profile": {
-    "name": "typicode"
+  method: 'POST',
+  body: JSON.stringify({
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
   }
-}
